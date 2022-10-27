@@ -1,0 +1,34 @@
+%%% test_file_that_calls_files.cylc
+%%% Nadim Barakat. 3/7/22. CS15 Proj 2 
+%%% 
+%%% This file tests the file command 
+%%% It tests many of the previously created files 
+%%% it also tests calling itself: very cool to see working 
+%%% it also tests the fib_debug file created my Mark Sheldon 
+%%% It also tests the error cases such as bad file name 
+%%% and an empty file 
+%%%
+
+{ general_cmds.cylc }
+file 
+{ not_real.cylc }
+file 
+{ empty_file.cylc }
+file 
+{ test_operations.cylc }
+file 
+{ test_compare.cylc }
+file 
+{ test_file_that_calls_files.cylc } 
+file 
+3 
+100 
+== 
+print 
+{ if_tests.cylc }
+file 
+clear 
+3
+print 
+{ fib_debug.cylc }
+file 

@@ -1,0 +1,72 @@
+%%% test_compare.cyl 
+%%% Nadim Barakat 3/5/22 CS15 Proj 2 
+%%% 
+%%% this file tests the operations such as <, >, ==, <=, >=
+%%%
+%%% It also tests edge cases such as comparing Datums 
+%%% that are not ints which should throw an error 
+%%% 
+%%% It also tests cases in which == is called on non ints 
+%%% which is a valid operation 
+%%%
+%%% It also tests calling operations on an empty stack or when 
+%%% there is only one thing on the stack 
+%%% 
+%%% I print after most operations so I can compare with the ref
+%%%
+
+> %%%empty stack 
+100
+print
+99
+print 
+== 
+print
+4
+100
+>= 
+print
+90 
+90 
+==
+print 
+65 
+66 
+<= 
+print 
+drop 
+print 
+swap 
+print 
+#t
+#f 
+== %%%should not throw error 
+print 
+90
+#t 
+== 
+print 
+10 
+90
+swap 
+>= 
+print 
+clear
+{ 1 2 3 }
+{ 1 2 3 }
+== %%%should be valid comparison 
+#t
+<=
+print 
+#t 
+#f 
+> %%%should give an error 
+print 
+90
+#t
+< %%%should give an error 
+print 
+20 
+#t
+== 
+print

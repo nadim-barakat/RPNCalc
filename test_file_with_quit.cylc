@@ -1,0 +1,9 @@
+print 
+3 
+file 
+{ not_real.txt }
+file 
+{ test_swap.txt }
+file 
+100 // these should not run 
+print 

@@ -1,0 +1,16 @@
+dup
+print 
+0 
+==
+{
+  drop
+  1
+}
+{
+  dup 1 -
+  { fact.cylc }
+  file
+  *
+}
+if
+print 

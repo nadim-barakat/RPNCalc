@@ -1,0 +1,57 @@
+%%%
+%%% general_commands.cyl 
+%%% Nadim Barakat 
+%%% 
+%%% This tests the general commands like add, swap, 
+%%% print, not. 
+%%% This is the first step to make sure 
+%%% these general commands work before moving on 
+%%% to file and exec which will use them 
+%%%
+%%% this also tests error cases such as printing 
+%%% or calling not on an empty stack 
+%%%
+%%% also adds RStrings 
+%%% 
+%%% note: this file does not have quit cmd. It should quit by EOF
+%%% when piped in 
+%%%
+
+not 
+print
+#t
+print
+3
+print
+4 7
+print
+not 
+#t
+not 
+#f 
+not 
+print 
+clear
+{ 1 2 3 }
+print 
+not
+#t
+print 
+not 
+print 
+4
+{ #t  print }
+print 
+swap 
+print 
+not 
+{ clear swap 3 4 + }
+{ } %%% tests addition of empty Rstring 
+print 
+#f 
+print 
+not 
+print 
+swap 
+print
+print

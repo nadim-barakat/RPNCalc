@@ -1,0 +1,58 @@
+
+exec %%%empty stack 
+{ 20 100 / { 7 9 > } 90 #t == }
+print
+exec
+print  
+exec 
+print 
+clear %%put comments explaining what we are teting 
+#t
+exec 
+print 
+clear 
+exec 
+print 
+{ }
+exec 
+print 
+{ { } }
+exec 
+print 
+{ 20 3 }
+exec 
+mod
+print 
+{ #t #f }
+exec
+print  
+==
+print 
+drop 
+print 
+7 
++
+print 
+clear
+{ 4 6 > { 5 5 == } } 
+print
+exec 
+print 
+drop 
+print 
+drop 
+{ #t #f + { 5 0 / } }
+print 
+exec 
+print 
+drop 
+print 
+drop 
+clear
+3
+4
+exec %%%bad types 
+#t 
+#f 
+exec 
+print

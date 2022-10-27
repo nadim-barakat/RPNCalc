@@ -1,0 +1,21 @@
+{ general_cmds.cylc }
+file 
+{ test_operations.cylc }
+file 
+{ test_compare.cylc }
+file 
+{ test_file_that_calls_files.cylc } 
+file 
+3 
+100 
+== 
+print 
+{ if_tests.cylc }
+file 
+clear 
+3
+print 
+{ fib_debug.cylc }
+file 
+sfjasd
+print 

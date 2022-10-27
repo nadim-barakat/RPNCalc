@@ -1,0 +1,59 @@
+exec
+{ 20 100 / { 7 9 > } 90 #t == }
+print
+exec
+print  
+exec 
+print 
+clear
+#t
+exec 
+print 
+clear 
+exec 
+print 
+{ }
+exec 
+print 
+{ { } }
+exec 
+print 
+{ 20 3 }
+exec 
+mod
+print 
+{ #t #f } ##simple with bools 
+exec
+print  
+==
+print 
+drop 
+print 
+7 
++
+print 
+clear
+{ 4 6 > { 5 5 == } } 
+print
+exec 
+print 
+drop 
+print 
+drop 
+{ #t #f + { 5 0 / } }
+print 
+exec 
+print 
+drop 
+print 
+drop 
+clear
+3
+4
+exec
+#t 
+#f 
+exec 
+{ quit }
+exec 
+print

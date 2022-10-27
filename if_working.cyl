@@ -1,0 +1,16 @@
+3 4 < 
+{ #t } 
+{ #f }
+if 
+print 
+3 4 < 
+{ #f }
+{ #t }
+if 
+print 
+4 dup 10 == 
+{ 1 0 / }
+{ 6 + dup 10 < { 10 > } {10 == } if }
+if 
+print 
+

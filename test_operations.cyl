@@ -1,0 +1,88 @@
+%%% test_operations.cyl 
+%%% Nadim Barakat 3/5/22 CS15 Proj 2 
+%%% 
+%%% this file tests the operations such as +, -, *, /, mod
+%%%
+%%% It also tests edge cases such as dividing or mod 0 
+%%% It also tests cases in which the object is the wrong type
+%%% for example, calling + on a boolean 
+%%%
+%%% It also tests calling operations on an empty stack or when 
+%%% there is only one thing on the stack 
+%%%
+%%%
+
+3
+print 
+4
+print 
+5
+print
++
+print 
+-
+print 
+swap
+print  
+#t
+#f
++ %%%wrong types 
+print 
+11
+print 
+/ 
+print 
+-1 %%% make sure negs are not an issue 
+print 
+2
+print 
+* 
+print 
+0 
+print 
+100 
+print 
+/ 
+print 
+1000 
+print 
+0 
+print %%%division by 0
+/ 
+print
+100 
+print 
+0 
+mod 
+drop 
+20 
+print 
+5
+print 
+11
+print 
+7
+print 
+100 
+print 
+90 
+mod
+drop 
+* 
+print 
+#f 
+print 
+not 
+print 
+clear 
++ %%% empty stack 
+{ 1 2 }
+{ 2 0 }
+swap 
+* %%% wrong data types 
+print 
+mod
++ 
+print
+- 
+print
